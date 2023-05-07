@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Aeonik";
+    src: local("Aeonik-Regular"),
+    url("../assets/Aeonik-Regular.ttf") format("truetype");
+}
+
+html {
+    font-family: Aeonik;
+}
